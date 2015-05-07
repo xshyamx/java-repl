@@ -22,23 +22,15 @@ Web version is available at [www.javarepl.com](http://www.javarepl.com/).
 
 [![Build Status](https://travis-ci.org/albertlatacz/java-repl.png?branch=master)](https://travis-ci.org/albertlatacz/java-repl)
 
-Building Java REPL requires the [ant build tool](http://ant.apache.org/).
+Building Java REPL requires the [maven](http://maven.apache.org/).
 
 After cloning the git repository, navigate over to it and run:
 
 ```
-$ ant
+$ mvn package
 ```
 
-After this completes, the jar completed with bundled dependencies will be located at **build/artifacts/javarepl-dev.build.jar**
-
-## Downloads
-
-[Latest version](http://albertlatacz.published.s3.amazonaws.com/javarepl/javarepl.jar)
-
-[Latest IntelliJ IDEA plugin](http://albertlatacz.published.s3.amazonaws.com/javarepl/javarepl-intellij.zip)
-
-[Previous releases](http://albertlatacz.published.s3.amazonaws.com/index.html)
+After this completes, the jar completed with bundled dependencies will be located at **target/javarepl.jar**
 
 
 ## Usage
