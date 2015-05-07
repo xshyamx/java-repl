@@ -4,6 +4,7 @@ lib/optional
 lib/runtime
 lib/packaged
 .idea
+*.iml
 .DS_Store
 target
 java-repl-intellij-plugin.zip
